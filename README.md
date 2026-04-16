@@ -6,11 +6,11 @@
 
 ## 🚀 Temel Özellikler ve Algoritmik Yaklaşımlar
 
-* [cite_start]**Asenkron Komut İşleme (HCI):** Sistem, "arabaları bul", "insanları takip et" veya "temizle" gibi komutları asenkron olarak ayrıştırıp hedef sınıfları belirler[cite: 8]. [cite_start]GUI ile modelin çalışma thread'leri birbirinden izole edilerek akıcı bir kullanıcı deneyimi sağlanmıştır[cite: 19, 238].
-* [cite_start]**Sezgisel (Heuristic) Kaza Tespiti:** Ekrandaki araçların merkez koordinatları anlık olarak tespit edilir[cite: 9]. [cite_start]Ardışık araçların birbirine olan Öklid mesafesi sürekli hesaplanarak, çarpışma eşiğinden fazla yaklaşılması durumunda sistem görsel uyarı (kırmızı flaş ve vektör çizgisi) üretir[cite: 10].
-* [cite_start]**Farneback Optik Akış Analizi:** İki ardışık kare arasındaki piksel değişimleri analiz edilerek videodaki genel hareket yönü ve büyüklüğü yoğun optik akış algoritması ile hesaplanır ve hareket eden pikseller vektörel olarak görselleştirilir[cite: 11, 12, 18, 194].
-* [cite_start]**Nesne Sayımı ve Çoklu Takip (Tracking):** Seçilen hedef sınıflar ardışık karelerde benzersiz kimliklerle (ID) izlenir ve ekrandaki toplam sayıları canlı sayaç ile arayüze yansıtılır[cite: 13, 210].
-* [cite_start]**Dinamik Güven Eşiği Yönetimi:** Modelin tespit hassasiyeti (Confidence Threshold), arayüze entegre edilen bir kontrol paneli üzerinden canlı olarak yönetilebilir[cite: 6, 205]. [cite_start]Bu sayede Precision/Recall dengesi sahada ayarlanabilmektedir[cite: 236].
+**Asenkron Komut İşleme (HCI):** Sistem, "arabaları bul", "insanları takip et" veya "temizle" gibi komutları asenkron olarak ayrıştırıp hedef sınıfları belirler[cite: 8]. [cite_start]GUI ile modelin çalışma thread'leri birbirinden izole edilerek akıcı bir kullanıcı deneyimi sağlanmıştır[cite: 19, 238].
+**Sezgisel (Heuristic) Kaza Tespiti:** Ekrandaki araçların merkez koordinatları anlık olarak tespit edilir[cite: 9]. [cite_start]Ardışık araçların birbirine olan Öklid mesafesi sürekli hesaplanarak, çarpışma eşiğinden fazla yaklaşılması durumunda sistem görsel uyarı (kırmızı flaş ve vektör çizgisi) üretir[cite: 10].
+**Farneback Optik Akış Analizi:** İki ardışık kare arasındaki piksel değişimleri analiz edilerek videodaki genel hareket yönü ve büyüklüğü yoğun optik akış algoritması ile hesaplanır ve hareket eden pikseller vektörel olarak görselleştirilir[cite: 11, 12, 18, 194].
+**Nesne Sayımı ve Çoklu Takip (Tracking):** Seçilen hedef sınıflar ardışık karelerde benzersiz kimliklerle (ID) izlenir ve ekrandaki toplam sayıları canlı sayaç ile arayüze yansıtılır[cite: 13, 210].
+**Dinamik Güven Eşiği Yönetimi:** Modelin tespit hassasiyeti (Confidence Threshold), arayüze entegre edilen bir kontrol paneli üzerinden canlı olarak yönetilebilir[cite: 6, 205]. [cite_start]Bu sayede Precision/Recall dengesi sahada ayarlanabilmektedir[cite: 236].
 
 ## 🛠 Kullanılan Teknolojiler
 
